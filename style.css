@@ -1,0 +1,26 @@
+.attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+
+        body {
+            background-color:hsl(216, 12%, 8%);
+        }
+
+        .ptButton {
+            background-color: hsl(215, 17%, 22%);
+            width: 2vw;
+            height: 2vw;
+        }
+
+        .col-4 {
+            background: hsl(214, 19%, 14%);
+            margin-top: 30vh;
+            border-radius: 10%;
+        }
+
+        .image {
+            background-color: hsl(215, 17%, 22%);
+            border-radius: 50%;
+            width: 2vw;
+            height: 2vw;
+            text-align: center;
+        }
