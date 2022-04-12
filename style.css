@@ -7,12 +7,9 @@
 
         .ptButton {
             background-color: hsl(215, 17%, 22%);
-            width: 2vw;
-            height: 2vw;
         }
-
         .col-4 {
-            background: hsl(214, 19%, 14%);
+            background: linear-gradient(120deg, hsl(213,19%,18%), hsl(216,12%,8%));
             margin-top: 30vh;
             border-radius: 10%;
         }
