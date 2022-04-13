@@ -21,3 +21,7 @@
             height: 2vw;
             text-align: center;
         }
+
+        .rounded-pill {
+            transition: all 0.3 ease-in-out;
+        }
