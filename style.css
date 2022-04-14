@@ -5,15 +5,26 @@
             background-color:hsl(216, 12%, 8%);
         }
 
-        .ptButton {
-            background-color: hsl(215, 17%, 22%);
-        }
-        .smallContainer {
+        .smallContainer1 {
             background: linear-gradient(120deg, hsl(213,19%,18%), hsl(216,12%,8%));
             margin-top: 30vh;
             border-radius: 10%;
         }
 
+        .smallContainer2 {
+            background: linear-gradient(120deg, hsl(213, 19%,18%), hsl(216,12%,8%));
+            margin-top: 30vh;
+            border-radius: 10%;
+        }
+        .containerCircle {
+            background-color: hsl(213, 19%, 18%);
+            width: 2.6rem;
+            height: 2.6rem;
+        }
+        .containerCircle :hover {
+            background: rgb(252, 124, 5);
+            cursor: pointer;
+        }
         .image {
             background-color: hsl(215, 17%, 22%);
             border-radius: 50%;
@@ -22,9 +33,23 @@
             text-align: center;
         }
 
-        .rounded-pill {
-            transition: all 0.3 ease-in-out;
+        .ratedNum {
+            background-color: hsl(213, 19%, 18%);
+            color: rgb(252, 124, 5);
         }
-        button :hover {
-            background-color: 'rgb(252, 124, 5)';
+
+        /* footer {
+            position: absolute;
+            bottom: 0;
+            margin: auto;
+        } */
+
+        #submitBtn {
+            background-color: rgb(252, 124, 5); 
+            color: white;
+        }
+
+        #submitBtn :hover {
+            background-color: white;
+            color: rgb(252, 124, 5);
         }
