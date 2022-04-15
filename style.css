@@ -54,6 +54,6 @@
             color: rgb(252, 124, 5);
         }
 
-        .selectedBtn {
+        .selected {
             background-color: hsl(217, 12%, 63);
         }

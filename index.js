@@ -3,8 +3,7 @@ const smallContainer1 = document.querySelector(".smallContainer1")
 const smallContainer2 = document.querySelector(".smallContainer2")
 const submitPoint = document.querySelector("#submitPoint")
 const greetingContainer = document.getElementById("greetingContainer")
-const containerCircle = document.getElementsByClassName("containerCircle")
-const points = document.getElementsByClassName("points")
+const containerCircle = document.querySelectorAll(".containerCircle")
 // function makeOrange(x) {
 //     x.style.backgroundColor = 'rgb(252, 124, 5)';
 // }
@@ -47,9 +46,3 @@ function greetingDisplay() {
     greetingContainer.classList.remove("d-none");
     smallContainer1.classList.add("d-none")
 }
-
-points.array.forEach((point) => {
-    point.addEventListener("click", ()=>{
-        point.classList.toggle("selectedBtn");
-    });
-});
