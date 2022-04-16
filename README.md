@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor | My Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor | My Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-html-js-css-bootstrap-r1NJ0ru4q)
 - Live Site URL: [Halibal | Interactive Rating Component](https://halibal.github.io/interactive-rating-component/)
 
 ### Built with
