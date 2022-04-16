@@ -16,6 +16,8 @@
             margin-top: 30vh;
             border-radius: 10%;
         }
+
+
         .containerCircle {
             background-color: hsl(213, 19%, 18%);
             width: 2.6rem;
@@ -25,6 +27,10 @@
             background: rgb(252, 124, 5);
             cursor: pointer;
         }
+        .containerCircle:active {
+            background: rgb(252, 124, 5);
+        }
+
         .image {
             background-color: hsl(215, 17%, 22%);
             border-radius: 50%;
@@ -38,12 +44,6 @@
             color: rgb(252, 124, 5);
         }
 
-        /* footer {
-            position: absolute;
-            bottom: 0;
-            margin: auto;
-        } */
-
         #submitBtn {
             background-color: rgb(252, 124, 5); 
             color: white;
@@ -52,8 +52,4 @@
         #submitBtn:hover {
             background-color: white;
             color: rgb(252, 124, 5);
-        }
-
-        .selected {
-            background-color: hsl(217, 12%, 63);
         }
